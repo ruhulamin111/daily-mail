@@ -1,0 +1,17 @@
+.widget {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 0.06;
+    margin-top: 5px;
+}
+
+.widgetOptions {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.widgetOptions>img {
+    width: 30px;
+    object-fit: contain;
+}
